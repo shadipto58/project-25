@@ -1,0 +1,69 @@
+.banner{
+	background: url('images/shark.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner h1{
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.january{
+	padding: 100px 0;
+	background: #000;
+	color: #fff;
+}
+
+.foods{
+	padding: 100px 0;
+	background: #fff;
+}
+.sec-title{
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.owl-nav{}
+.owl-nav button.owl-prev{
+	position: absolute;
+	top: 30%;
+	left: -20px;
+}
+.owl-nav button.owl-next{
+	position: absolute;
+	top: 30%;
+	right: -20px;
+}
+.owl-nav button i{
+	font-size: 20px;
+}
+
+.owl-dots{
+	text-align: center;
+}
+.owl-dots button.owl-dot{
+	width: 10px;
+	height: 10px;
+	background: #badc58;
+	margin: 0 3px;
+	border-radius: 50%;
+}
+.owl-dots button.active{
+	background: #6ab04c;
+}
+form > input > .placeholder{
+	display: block;
+	width: 200px;
+	height: 50px;
+}
+
+
+
+
+
+
